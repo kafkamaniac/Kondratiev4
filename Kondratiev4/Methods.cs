@@ -214,7 +214,6 @@ namespace Kondratiev4
                 }
                 else
                 {
-                    continue;
                 }
             }
 
