@@ -7,7 +7,7 @@ namespace Kondratiev4
 {
     internal class Methods
     {
-
+        //Нормализовать ФИО
         static public void Normalized()
 
         {
@@ -38,6 +38,7 @@ namespace Kondratiev4
 
         }
 
+        //Подсчитать знаки в тексте
         static public void EverythingIsCounted()
         {
             Console.WriteLine("Текст: ");
@@ -97,6 +98,7 @@ namespace Kondratiev4
 
         }
 
+        //Сделать из имени инициалы
         public static void FullName()
         {
 
@@ -136,6 +138,8 @@ namespace Kondratiev4
                 Console.WriteLine(normalized[0] + " " + firstInitial + ". " + secondInitial + ". ");
             }
         }
+
+        //исправить телефонный номер
         public static void PhoneNumber()
         {
             Console.WriteLine("Телефон: ");
