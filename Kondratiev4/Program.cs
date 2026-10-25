@@ -19,6 +19,13 @@ namespace Kondratiev4
             currentForeground = ConsoleColor.Red;
 
             Console.WriteLine("Console " + currentForeground);
+
+            using (StreamWriter writer = new StreamWriter("log.txt", true))
+            {
+                writer.WriteLine(
+                    $"Программа запущена: {DateTime.Now:dd.MM.yyyy HH:mm:ss}");
+            }
+
             ShowMenu();
         }
 
